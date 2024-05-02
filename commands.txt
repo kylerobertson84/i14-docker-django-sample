@@ -1,0 +1,6 @@
+# builds from the docker file
+docker compose build
+# creates a django project
+docker compose run --rm app django-admin startproject
+# Initialises the docker-compose.yml file with the configurations and starts the container 
+docker compose up
